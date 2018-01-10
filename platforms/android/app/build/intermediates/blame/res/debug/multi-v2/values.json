@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\rubro\\Documents\\Ionic_Proyects\\legaltaxi-io\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rubro\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\070846a2369583998c82fc3fdccc0f24\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "176",
+                        "endColumns": "77",
+                        "endOffsets": "253"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "598",
+                        "endColumns": "81",
+                        "endOffsets": "675"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rubro\\Documents\\Ionic_Proyects\\legaltaxi-io\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "164,55,105",
+                        "endColumns": "63,49,58",
+                        "endOffsets": "223,100,159"
+                    },
+                    "to": {
+                        "startLines": "3,4,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "173,237,1310",
+                        "endColumns": "63,49,58",
+                        "endOffsets": "232,282,1364"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rubro\\Documents\\Ionic_Proyects\\legaltaxi-io\\platforms\\android\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,315,397,501,604,724",
+                        "endColumns": "143,115,81,103,102,119,104",
+                        "endOffsets": "194,310,392,496,599,719,824"
+                    },
+                    "to": {
+                        "startLines": "6,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "454,680,796,878,982,1085,1205",
+                        "endColumns": "143,115,81,103,102,119,104",
+                        "endOffsets": "593,791,873,977,1080,1200,1305"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rubro\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\83fa24cdd90272cd546f795581dae8d3\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "274,437",
+                        "endColumns": "63,166",
+                        "endOffsets": "337,603"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,287",
+                        "endColumns": "67,166",
+                        "endOffsets": "168,449"
+                    }
+                }
+            ]
+        }
+    ]
+}

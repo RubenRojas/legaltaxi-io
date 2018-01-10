@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "900980788283",
+    "firebase_url": "https://legaltaxi-ionic-4ec12.firebaseio.com",
+    "project_id": "legaltaxi-ionic-4ec12",
+    "storage_bucket": "legaltaxi-ionic-4ec12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900980788283:android:a6b3fac4fc5d2c27",
+        "android_client_info": {
+          "package_name": "cl.telios.legaltaxi.v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900980788283-kqrml5ltuar6422uug28d05ipdnbva3q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "900980788283-jfsa6qpi8l4dcmigba2encmn4g49c32l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.telios.legaltaxi.v2",
+            "certificate_hash": "0ded5a4b3d6268040a7ae57536e688b7003454f4"
+          }
+        },
+        {
+          "client_id": "900980788283-63ps61nvct3rcgkv2ejudjrldmiknolg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.telios.legaltaxi.v2",
+            "certificate_hash": "dac6e70e888c63bff2ae90ca560bf742051714e8"
+          }
+        },
+        {
+          "client_id": "900980788283-ubc0ng7u073bpecmf2cl26kh7ru6ju6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.telios.legaltaxi.v2",
+            "certificate_hash": "0ece0cd8939b8980c9ce309bd484d952929605ff"
+          }
+        },
+        {
+          "client_id": "900980788283-ja33qboq0jjlek4sut3ktk80tligbcvd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "900980788283-d4qja6fpts09qg5u60tqvbpe81kcgvut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.telios.legaltaxi.v2",
+            "certificate_hash": "44e69a95bafa685ef967a4442af7e7dcaa9e36f4"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk74D73BfwMmoSh22RBk0pfBVXidHMv74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900980788283-kqrml5ltuar6422uug28d05ipdnbva3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
