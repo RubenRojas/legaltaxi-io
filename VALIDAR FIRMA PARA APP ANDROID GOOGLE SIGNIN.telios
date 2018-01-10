@@ -1,0 +1,42 @@
+https://forum.ionicframework.com/t/google-login-error-10/93230/6
+
+
+
+
+
+keytool -genkey -v -keystore my-release-key.keystore -alias rubro -keyalg RSA -keysize 2048 -validity 10000
+
+
+keytool -exportcert -list -v -alias rubro -keystore c:/Users/rubro/my-release-key.keystore
+
+
+Introduzca la contraseña del almacén de claves:
+Nombre de Alias: rubro
+Fecha de Creación: 08-ene-2018
+Tipo de Entrada: PrivateKeyEntry
+Longitud de la Cadena de Certificado: 1
+Certificado[1]:
+Propietario: CN=Ruben, OU=Telios, O=Telios, L=Talca, ST=Talca, C=CH
+Emisor: CN=Ruben, OU=Telios, O=Telios, L=Talca, ST=Talca, C=CH
+Número de serie: 7fcc7afd
+Válido desde: Mon Jan 08 16:23:27 CLST 2018 hasta: Fri May 26 15:23:27 CLT 2045
+Huellas digitales del Certificado:
+         MD5: 60:AF:80:A1:DF:6E:A4:BD:A0:C5:7A:E2:48:9E:2D:5F
+         SHA1: 0D:ED:5A:4B:3D:62:68:04:0A:7A:E5:75:36:E6:88:B7:00:34:54:F4
+         SHA256: E8:DB:E5:80:89:62:ED:FB:4F:80:68:EB:FA:F0:64:6D:AE:BD:0C:EE:59:EE:9C:9A:48:72:D1:AB:A2:C9:FE:D0
+         Nombre del Algoritmo de Firma: SHA256withRSA
+         Versión: 3
+
+Extensiones:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 74 FD B2 CB EF 14 AF EE   47 1C F3 2F 5A 34 FE 42  t.......G../Z4.B
+0010: 15 83 58 69                                        ..Xi
+]
+]
+
+
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore c:/Users/rubro/my-release-key.keystore C:\Users\rubro\Documents\Ionic_Proyects\legaltaxi\platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk rubro
