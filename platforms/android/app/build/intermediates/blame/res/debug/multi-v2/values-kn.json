@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rubro\\Documents\\Ionic_Proyects\\legaltaxi-io\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+            "outputFile": "/Users/rubro/Ionic/legaltaxi-io/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rubro\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\83fa24cdd90272cd546f795581dae8d3\\res\\values-kn\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "283",
-                        "endColumns": "204",
-                        "endOffsets": "487"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "204",
-                        "endOffsets": "305"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rubro\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\070846a2369583998c82fc3fdccc0f24\\res\\values-kn\\values.xml",
+                    "source": "/Users/rubro/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/62f510b78b4926cf6bca1b58e6e8fe23/res/values-kn/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,6 +18,23 @@
                         "startOffsets": "310",
                         "endColumns": "102",
                         "endOffsets": "408"
+                    }
+                },
+                {
+                    "source": "/Users/rubro/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/1428c426b3a0b6134022c8a0729d8e7d/res/values-kn/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "204",
+                        "endOffsets": "487"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
                     }
                 }
             ]
